@@ -29,7 +29,6 @@ client.on("message", (message) => {
                 message.reply(tier[1])
             })
     }
-
 })
 
 
