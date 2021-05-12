@@ -38,11 +38,11 @@
             })
     }
 
-    function testWebSocket(wsUri) {
+    function testWebSocket(wsUri, sid) {
         websocket = new WebSocket(wsUri);
         websocket.onopen = function (evt) { onOpen(evt) };
         websocket.onclose = function (evt) { onClose(evt) };
-        websocket.onmessage = function (evt) { onMessage(evt) };
+        websocket.onmessage = function (evt) { onMessage(evt, sid) };
         websocket.onerror = function (evt) { onError(evt) };
     }
 
@@ -55,12 +55,19 @@
         writeToScreen("DISCONNECTED");
     }
 
-    function onMessage(evt) {
+    function onMessage(evt, sid) {
         writeToScreen('<span style="color: blue;">RESPONSE: ' + evt.data + '</span>');
         if (evt.data === "3probe") doSend(5)
         else {
-            console.log("data del evento", evt.data)
-            addGame();
+            console.log("Event data:", evt.data)
+            fetch(httpSH + sid, {
+                credentials: "include",
+                method: 'POST',
+                body: `17:42["sendUser",{}]`
+            })
+                .then(res => res.text()
+                    .then(data => console.log(`data`, data))
+                )
         }
     }
 
