@@ -5,6 +5,21 @@ require('dotenv').config()
 
 const prefix = "!";
 
+const findPokemon = (name, evolutionInfo) => {
+    specyName = evolutionInfo.species.name
+    evolutionInfo = evolutionInfo.evolves_to[0]
+    if (specyName === name) {
+        if (!evolutionInfo) return `${name} doesn't evolve`;
+        else {
+            let details = evolutionInfo.evolution_details[0]
+            let { min_level, trigger } = details;
+            if (min_level) return `${name} evolves to ${evolutionInfo.species.name} at ${min_level}`;
+            else return `${name} evolves to ${evolutionInfo.species.name} with ${trigger.name}`;
+        }
+    }
+    else return findPokemon(name, evolutionInfo)
+}
+
 client.on("message", (message) => {
     if (message.author.bot) return;
     if (!message.content.startsWith(prefix)) return;
@@ -29,7 +44,33 @@ client.on("message", (message) => {
                 message.reply(tier[1])
             })
     }
-})
 
+    if (command === "pokemon") {
+        const pokemon = args.shift().toLowerCase();
+        axios('https://pokeapi.co/api/v2/pokemon-species/' + pokemon)
+            .then(res => {
+                let { data } = res;
+                let { evolution_chain } = data;
+                axios(evolution_chain.url)
+                    .then(response => {
+                        let { data } = response;
+                        let evolution = findPokemon(pokemon, data.chain)
+                        message.reply(evolution)
+                    })
+            })
+            .catch(err => message.reply("Pokemon unknown"))
+    }
+
+    if (command === "clean") {
+        async function clear() {
+            await message.channel.messages.fetch({ limit: 10 })
+                .then(messages => {
+                    console.log(`messages`, messages)
+                    message.channel.bulkDelete(messages);
+                });
+        }
+        clear();
+    }
+})
 
 client.login(process.env.BOT_TOKEN)
