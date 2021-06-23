@@ -1,0 +1,726 @@
+[
+    {
+        "url": "https://www.buscalibre.cl/catan-basico_p_53286347.html",
+        "name": "Catan Básico"
+    },
+    {
+        "url": "https://www.buscalibre.cl/polilla-tramposa_p_53280534.html",
+        "name": "Polilla Tramposa"
+    },
+    {
+        "url": "https://www.buscalibre.cl/terraforming-mars-maldito-games_p_53280541.html",
+        "name": "Terraforming Mars Maldito Games"
+    },
+    {
+        "url": "https://www.buscalibre.cl/el-monstruo-de-colores_p_53280511.html",
+        "name": "El Monstruo de Colores"
+    },
+    {
+        "url": "https://www.buscalibre.cl/sushi-go_p_53280539.html",
+        "name": "Sushi Go"
+    },
+    {
+        "url": "https://www.buscalibre.cl/fantasma-blitz_p_53280524.html",
+        "name": "Fantasma Blitz"
+    },
+    {
+        "url": "https://www.buscalibre.cl/codigo-secreto_p_53280507.html",
+        "name": "Codigo Secreto"
+    },
+    {
+        "url": "https://www.buscalibre.cl/exit-la-mansion-siniestra_p_53280522.html",
+        "name": "Exit La mansion siniestra"
+    },
+    {
+        "url": "https://www.buscalibre.cl/exit-la-cabana-abandonada_p_53280516.html",
+        "name": "Exit la cabaña abandonada"
+    },
+    {
+        "url": "https://www.buscalibre.cl/exit-el-museo-misterioso_p_53280514.html",
+        "name": "Exit El Museo Misterioso"
+    },
+    {
+        "url": "https://www.buscalibre.cl/carcassonne-basico_p_53280501.html",
+        "name": "Carcassonne Basico"
+    },
+    {
+        "url": "https://www.buscalibre.cl/trg-red7_p_53280547.html",
+        "name": "TRG RED7"
+    },
+    {
+        "url": "https://www.buscalibre.cl/sagrada_p_53280537.html",
+        "name": "Sagrada"
+    },
+    {
+        "url": "https://www.buscalibre.cl/la-tripulacion_p_53280531.html",
+        "name": "La Tripulacion"
+    },
+    {
+        "url": "https://www.buscalibre.cl/exit-muerte-en-el-orient-express_p_53280523.html",
+        "name": "Exit Muerte en el Orient Express"
+    },
+    {
+        "url": "https://www.buscalibre.cl/exit-el-tesoro-hundido_p_53280515.html",
+        "name": "Exit El tesoro hundido"
+    },
+    {
+        "url": "https://www.buscalibre.cl/sherlock-muerte-el-4-de-julio_p_53280479.html",
+        "name": "Sherlock Muerte el 4 de julio"
+    },
+    {
+        "url": "https://www.buscalibre.cl/wigetta-y-las-gemas-magicas_p_53280545.html",
+        "name": "Wigetta y las gemas magicas"
+    },
+    {
+        "url": "https://www.buscalibre.cl/herbalism-espanol_p_53280544.html",
+        "name": "Herbalism (Español)"
+    },
+    {
+        "url": "https://www.buscalibre.cl/la-guerra-en-el-pacifico_p_53280528.html",
+        "name": "La Guerra en el PacÍfico"
+    },
+    {
+        "url": "https://www.buscalibre.cl/fantasma-blitz-4-menudo-susto_p_53280525.html",
+        "name": "Fantasma Blitz 4: Menudo susto"
+    },
+    {
+        "url": "https://www.buscalibre.cl/exit-la-isla-olvidada_p_53280521.html",
+        "name": "Exit La isla olvidada"
+    },
+    {
+        "url": "https://www.buscalibre.cl/exit-la-estacion-polar_p_53280519.html",
+        "name": "Exit La estacion polar"
+    },
+    {
+        "url": "https://www.buscalibre.cl/el-abejorro-tramposo_p_53280510.html",
+        "name": "El abejorro Tramposo"
+    },
+    {
+        "url": "https://www.buscalibre.cl/catan-junior-trilingue_p_53280503.html",
+        "name": "Catan Junior (Trilingue)"
+    },
+    {
+        "url": "https://www.buscalibre.cl/sherlock-la-tumba-del-arqueologo_p_53280459.html",
+        "name": "Sherlock La tumba del Arqueologo"
+    },
+    {
+        "url": "https://www.buscalibre.cl/ubongo-trilingue_p_53280540.html",
+        "name": "Ubongo Trilingue"
+    },
+    {
+        "url": "https://www.buscalibre.cl/sanctum_p_53280538.html",
+        "name": "Sanctum"
+    },
+    {
+        "url": "https://www.buscalibre.cl/ratzzia_p_53280535.html",
+        "name": "Ratzzia"
+    },
+    {
+        "url": "https://www.buscalibre.cl/out-of-this-world_p_53280533.html",
+        "name": "Out of this world"
+    },
+    {
+        "url": "https://www.buscalibre.cl/la-vina_p_53280532.html",
+        "name": "La Viña"
+    },
+    {
+        "url": "https://www.buscalibre.cl/la-resistencia_p_53280530.html",
+        "name": "La Resistencia"
+    },
+    {
+        "url": "https://www.buscalibre.cl/exit-la-casa-de-los-enigmas_p_53280518.html",
+        "name": "Exit La casa de los enigmas"
+    },
+    {
+        "url": "https://www.buscalibre.cl/sherlock-ultima-llamada_p_53280500.html",
+        "name": "Sherlock ultima llamada"
+    },
+    {
+        "url": "https://www.buscalibre.cl/rescate_p_53280536.html",
+        "name": "Rescate"
+    },
+    {
+        "url": "https://www.buscalibre.cl/king-of-tokyo-edicion-oscura_p_53280527.html",
+        "name": "King of Tokyo Edicion Oscura"
+    },
+    {
+        "url": "https://www.buscalibre.cl/granjeros_p_53280526.html",
+        "name": "Granjeros"
+    },
+    {
+        "url": "https://www.buscalibre.cl/exit-la-feria-terrorifica_p_53280520.html",
+        "name": "Exit La Feria Terrorifica"
+    },
+    {
+        "url": "https://www.buscalibre.cl/exit-el-castillo-prohibido_p_53280512.html",
+        "name": "Exit El castillo prohibido"
+    },
+    {
+        "url": "https://www.buscalibre.cl/colt-super-express_p_53280509.html",
+        "name": "Colt Super Express"
+    },
+    {
+        "url": "https://www.buscalibre.cl/colt-express_p_53280508.html",
+        "name": "Colt Express"
+    },
+    {
+        "url": "https://www.buscalibre.cl/kingdomino-blue-orange_p_53275764.html",
+        "name": "Kingdomino Blue Orange"
+    },
+    {
+        "url": "https://www.buscalibre.cl/marvel-champions-hulk_p_53343913.html",
+        "name": "Marvel Champions Hulk"
+    },
+    {
+        "url": "https://www.buscalibre.cl/gg-bgg-sleeves-matte-mini-square-sized-sleeves-50_p_53343912.html",
+        "name": "GG BGG Sleeves Matte Mini Square"
+    },
+    {
+        "url": "https://www.buscalibre.cl/gg-bgg-sleeves-matte-big-square-sized-sleeves-82-x-82-mm_p_53343911.html",
+        "name": "GG BGG Sleeves MATTE Big Square"
+    },
+    {
+        "url": "https://www.buscalibre.cl/ds100-art-queen-athromark-portrait_p_53343910.html",
+        "name": "DS100 Art Queen Athromark: Portrait"
+    },
+    {
+        "url": "https://www.buscalibre.cl/solenia-base_p_53343909.html",
+        "name": "Solenia Base"
+    },
+    {
+        "url": "https://www.buscalibre.cl/la-llamada-de-cthulhu-7ed-pantalla-del-guardian_p_53343908.html",
+        "name": "La Llamada de Cthulhu 7ed Pantalla del Guardián"
+    },
+    {
+        "url": "https://www.buscalibre.cl/fiasco-mas-y-peor_p_53343907.html",
+        "name": "Fiasco Más y peor"
+    },
+    {
+        "url": "https://www.buscalibre.cl/erase-una-vez-tercera-edicion-espanol_p_53343906.html",
+        "name": "Érase una vez… Tercera Edición Español"
+    },
+    {
+        "url": "https://www.buscalibre.cl/sw-x-wing-2ed-tie-avanzado-x1_p_53343905.html",
+        "name": "SW X"
+    },
+    {
+        "url": "https://www.buscalibre.cl/dragon-shield-matte-slate_p_53343904.html",
+        "name": "Dragon Shield MATTE Slate"
+    },
+    {
+        "url": "https://www.buscalibre.cl/art-sleeves-classic-queen-athromark-coat-of-arms-100-ct-in-box_p_53343903.html",
+        "name": "ART Sleeves Classic Queen Athromark:Coat"
+    },
+    {
+        "url": "https://www.buscalibre.cl/dungeons-and-dragons-pantalla-de-dm-waterdeep-el-golpe-de-los-dragones_p_53343902.html",
+        "name": "Dungeons and Dragons Pantalla de DM Waterdeep: El Golpe de los Dragones"
+    },
+    {
+        "url": "https://www.buscalibre.cl/monstruo-final-el-siguiente-nivel_p_53343901.html",
+        "name": "Monstruo Final El siguiente nivel"
+    },
+    {
+        "url": "https://www.buscalibre.cl/story-cubes-emergency_p_53343900.html",
+        "name": "Story Cubes Emergency"
+    },
+    {
+        "url": "https://www.buscalibre.cl/abalone-base_p_53343899.html",
+        "name": "Abalone Base"
+    },
+    {
+        "url": "https://www.buscalibre.cl/keyforge-la-edad-de-la-ascension-caja-de-inicio_p_53343898.html",
+        "name": "Keyforge La Edad de la Ascensión"
+    },
+    {
+        "url": "https://www.buscalibre.cl/5211-base_p_53343897.html",
+        "name": "5211 Base"
+    },
+    {
+        "url": "https://www.buscalibre.cl/sw-x-wing-2ed-btl-a4-ala-y_p_53343896.html",
+        "name": "SW X"
+    },
+    {
+        "url": "https://www.buscalibre.cl/dragon-shield-matte-blue_p_53343895.html",
+        "name": "Dragon Shield MATTE Blue"
+    },
+    {
+        "url": "https://www.buscalibre.cl/gg-bgg-sleeves-matte-square-sized-sleeves73-x-73-mm_p_53343894.html",
+        "name": "GG BGG Sleeves MATTE Square"
+    },
+    {
+        "url": "https://www.buscalibre.cl/sw-legion-las-guerras-clon_p_53343893.html",
+        "name": "SW Legion Las Guerras Clon"
+    },
+    {
+        "url": "https://www.buscalibre.cl/ds-matte-japanese-sleeves-yellow_p_53343892.html",
+        "name": "DS Matte Japanese Sleeves Yellow"
+    },
+    {
+        "url": "https://www.buscalibre.cl/marvel-champions-ms-marvel_p_53343890.html",
+        "name": "Marvel Champions Ms. Marvel"
+    },
+    {
+        "url": "https://www.buscalibre.cl/keyforge-mutacion-masiva-mazo-de-arconte-deluxe_p_53343889.html",
+        "name": "Keyforge Mutación Masiva Mazo de Arconte Deluxe"
+    },
+    {
+        "url": "https://www.buscalibre.cl/mysterium-park_p_53343888.html",
+        "name": "Mysterium Park"
+    },
+    {
+        "url": "https://www.buscalibre.cl/ds-matte-japanese-sleeves-slate_p_53343887.html",
+        "name": "DS Matte Japanese Sleeves Slate"
+    },
+    {
+        "url": "https://www.buscalibre.cl/ds-matte-japanese-sleeves-magenta_p_53343886.html",
+        "name": "DS Matte Japanese Sleeves Magenta"
+    },
+    {
+        "url": "https://www.buscalibre.cl/arkham-horror-lcg-nataniel-cho-mazo-de-investigador_p_53343885.html",
+        "name": "Arkham Horror LCG Nataniel Cho Mazo de investigador"
+    },
+    {
+        "url": "https://www.buscalibre.cl/ds-matte-japanese-sleeves-silver_p_53343884.html",
+        "name": "DS Matte Japanese Sleeves Silver"
+    },
+    {
+        "url": "https://www.buscalibre.cl/arkham-horror-lcg-harvey-walters-mazo-de-investigador_p_53343883.html",
+        "name": "Arkham Horror LCG Harvey Walters Mazo de investigador"
+    },
+    {
+        "url": "https://www.buscalibre.cl/pandemic-estado-de-emergencia_p_53343882.html",
+        "name": "Pandemic Estado de Emergencia"
+    },
+    {
+        "url": "https://www.buscalibre.cl/ds-matte-japanese-sleeves-orange_p_53343881.html",
+        "name": "DS Matte Japanese Sleeves Orange"
+    },
+    {
+        "url": "https://www.buscalibre.cl/arkham-horror-lcg-stella-clark-mazo-de-investigador_p_53343879.html",
+        "name": "Arkham Horror LCG Stella Clark Mazo de investigador"
+    },
+    {
+        "url": "https://www.buscalibre.cl/arkham-horror-lcg-jaqueline-fine-mazo-de-investigador_p_53343878.html",
+        "name": "Arkham Horror LCG Jaqueline Fine Mazo de investigador"
+    },
+    {
+        "url": "https://www.buscalibre.cl/gg-essential-line-prime-playmat-white-610-x-350-x-2-mm_p_53343876.html",
+        "name": "GG Essential Line Prime Playmat"
+    },
+    {
+        "url": "https://www.buscalibre.cl/keyforge-mutacion-masiva-caja-de-inicio_p_53343875.html",
+        "name": "Keyforge Mutación Masiva"
+    },
+    {
+        "url": "https://www.buscalibre.cl/dragon-shield-matte-sky-blue_p_53343874.html",
+        "name": "Dragon Shield MATTE Sky Blue"
+    },
+    {
+        "url": "https://www.buscalibre.cl/sw-x-wing-2ed-esclavo-i_p_53343873.html",
+        "name": "SW X"
+    },
+    {
+        "url": "https://www.buscalibre.cl/dragon-shield-matte-apple-green_p_53343872.html",
+        "name": "Dragon Shield MATTE Apple Green"
+    },
+    {
+        "url": "https://www.buscalibre.cl/sw-x-wing-2ed-caza-colmillo_p_53343871.html",
+        "name": "SW X"
+    },
+    {
+        "url": "https://www.buscalibre.cl/sw-x-wing-2ed-caza-tie-in_p_53343870.html",
+        "name": "SW X"
+    },
+    {
+        "url": "https://www.buscalibre.cl/super-munchkin-nueva-edicion-base_p_53343869.html",
+        "name": "Super Munchkin Nueva Edición Base"
+    },
+    {
+        "url": "https://www.buscalibre.cl/dungeons-and-dragons-mapa-de-puerta-de-baldur_p_53343868.html",
+        "name": "Dungeons and Dragons Mapa de Puerta de Baldur"
+    },
+    {
+        "url": "https://www.buscalibre.cl/dungeons-and-dragons-mapa-de-faerun_p_53343867.html",
+        "name": "Dungeons and Dragons Mapa de Faerûn"
+    },
+    {
+        "url": "https://www.buscalibre.cl/ds-matte-sleves-60-crimson_p_53343865.html",
+        "name": "DS: MATTE Sleves (60) Crimson"
+    },
+    {
+        "url": "https://www.buscalibre.cl/dungeons-and-dragons-mapa-de-averno_p_53343864.html",
+        "name": "Dungeons and Dragons Mapa de Averno"
+    },
+    {
+        "url": "https://www.buscalibre.cl/dungeons-and-dragons-set-de-mapas-de-la-tumba-de-la-aniquilacion_p_53343863.html",
+        "name": "Dungeons and Dragons Set de mapas de la Tumba de la Aniquilación"
+    },
+    {
+        "url": "https://www.buscalibre.cl/gg-bgg-sleeves-prime-catan-english-sized-sleeves-60-56-x-82-mm_p_53343862.html",
+        "name": "GG BGG Sleeves Prime Catan English"
+    },
+    {
+        "url": "https://www.buscalibre.cl/dungeons-and-dragons-set-de-mapas-de-los-distritos-de-waterdeep_p_53343861.html",
+        "name": "Dungeons and Dragons Set de mapas de los distritos de Waterdeep"
+    },
+    {
+        "url": "https://www.buscalibre.cl/ds-matte-japanese-sleeves-mint_p_53343860.html",
+        "name": "DS Matte Japanese Sleeves Mint"
+    },
+    {
+        "url": "https://www.buscalibre.cl/x-men-insurreccion-mutante-base_p_53343859.html",
+        "name": "X-Men Insurrección Mutante Base"
+    },
+    {
+        "url": "https://www.buscalibre.cl/dragon-shield-matte-black_p_53343858.html",
+        "name": "Dragon Shield MATTE Black"
+    },
+    {
+        "url": "https://www.buscalibre.cl/gg-kf-sleeves-keyforge-tournament_p_53343856.html",
+        "name": "GG KF Sleeves KeyForge: Tournament"
+    },
+    {
+        "url": "https://www.buscalibre.cl/ds-matte-japanese-sleeves-clear_p_53343855.html",
+        "name": "DS Matte Japanese Sleeves Clear"
+    },
+    {
+        "url": "https://www.buscalibre.cl/munchkin-age-of-sigmar_p_53343854.html",
+        "name": "Munchkin Age of Sigmar"
+    },
+    {
+        "url": "https://www.buscalibre.cl/mental-blocks-base_p_53343853.html",
+        "name": "Mental Blocks Base"
+    },
+    {
+        "url": "https://www.buscalibre.cl/formula-d-base_p_53343852.html",
+        "name": "Fórmula D Base"
+    },
+    {
+        "url": "https://www.buscalibre.cl/gg-bgg-sleeves-prime-mini-square-sized-sleeves-50_p_53343851.html",
+        "name": "GG BGG Sleeves Prime Mini Square"
+    },
+    {
+        "url": "https://www.buscalibre.cl/story-cubes-heroes_p_53343850.html",
+        "name": "Story Cubes Heroes"
+    },
+    {
+        "url": "https://www.buscalibre.cl/ds-matte-japanese-sleeves-gold_p_53343849.html",
+        "name": "DS Matte Japanese Sleeves Gold"
+    },
+    {
+        "url": "https://www.buscalibre.cl/ds-matte-japanese-sleeves-olive_p_53343848.html",
+        "name": "DS Matte Japanese Sleeves Olive"
+    },
+    {
+        "url": "https://www.buscalibre.cl/ds-matte-japanese-sleeves-jet_p_53343847.html",
+        "name": "DS Matte Japanese Sleeves Jet"
+    },
+    {
+        "url": "https://www.buscalibre.cl/mysterium-hidden-signs_p_53343846.html",
+        "name": "Mysterium Hidden Signs"
+    },
+    {
+        "url": "https://www.buscalibre.cl/ds-matte-japanese-sleeves-night-blue_p_53343845.html",
+        "name": "DS Matte Japanese Sleeves Night Blue"
+    },
+    {
+        "url": "https://www.buscalibre.cl/jungle-speed-eco-conception_p_53343844.html",
+        "name": "Jungle Speed Eco Conception"
+    },
+    {
+        "url": "https://www.buscalibre.cl/ds-matte-japanese-sleeves-petrol_p_53343843.html",
+        "name": "DS Matte Japanese Sleeves Petrol"
+    },
+    {
+        "url": "https://www.buscalibre.cl/la-leyenda-de-los-cinco-anillos-el-juego-de-rol-caja-de-inicio_p_53343842.html",
+        "name": "La Leyenda de los Cinco Anillos: El Juego de Rol Caja de Inicio"
+    },
+    {
+        "url": "https://www.buscalibre.cl/sw-rpg-al-filo-del-imperio-caja-de-inicio_p_53343841.html",
+        "name": "SW RPG Al Filo del Imperio: Caja de inicio"
+    },
+    {
+        "url": "https://www.buscalibre.cl/ds-matte-japanese-sleeves-purple_p_53343840.html",
+        "name": "DS Matte Japanese Sleeves Purple"
+    },
+    {
+        "url": "https://www.buscalibre.cl/ds-matte-japanese-sleeves-jade_p_53343839.html",
+        "name": "DS Matte Japanese Sleeves Jade"
+    },
+    {
+        "url": "https://www.buscalibre.cl/sunny-day-base_p_53343838.html",
+        "name": "Sunny Day Base"
+    },
+    {
+        "url": "https://www.buscalibre.cl/ds-matte-japanese-sleeves-white_p_53343837.html",
+        "name": "DS Matte Japanese Sleeves White"
+    },
+    {
+        "url": "https://www.buscalibre.cl/ds-matte-japanese-sleeves-sky-blue_p_53343836.html",
+        "name": "DS Matte Japanese Sleeves Sky Blue"
+    },
+    {
+        "url": "https://www.buscalibre.cl/ds-matte-japanese-sleeves-apple-green_p_53343835.html",
+        "name": "DS Matte Japanese Sleeves Apple Green"
+    },
+    {
+        "url": "https://www.buscalibre.cl/gg-bgg-sleeves-prime-mini-european-sized-sleeves-50_p_53343834.html",
+        "name": "GG BGG Sleeves Prime Mini European"
+    },
+    {
+        "url": "https://www.buscalibre.cl/ds-art-sleeves-100-mega-man-classic_p_53343832.html",
+        "name": "DS: ART Sleeves (100) Mega Man (Classic)"
+    },
+    {
+        "url": "https://www.buscalibre.cl/imagine-espanol_p_53343830.html",
+        "name": "Imagine Español"
+    },
+    {
+        "url": "https://www.buscalibre.cl/the-shining-el-resplandor_p_53343829.html",
+        "name": "The Shining El Resplandor"
+    },
+    {
+        "url": "https://www.buscalibre.cl/hanabi-que-espectaculo_p_53343828.html",
+        "name": "Hanabi ¡Qué espectáculo!"
+    },
+    {
+        "url": "https://www.buscalibre.cl/ds-matte-japanese-sleeves-black_p_53343827.html",
+        "name": "DS Matte Japanese Sleeves Black"
+    },
+    {
+        "url": "https://www.buscalibre.cl/ds-art-sleeves-100-mega-man-rush-classic_p_53343826.html",
+        "name": "DS: ART Sleeves (100) Mega Man &amp; Rush (Classic)"
+    },
+    {
+        "url": "https://www.buscalibre.cl/keyforge-mundos-en-colision-caja-de-inicio-para-2-jugadores_p_53343825.html",
+        "name": "Keyforge Mundos en Colisión Caja de inicio para 2 jugadores"
+    },
+    {
+        "url": "https://www.buscalibre.cl/wordsmith-base_p_53343823.html",
+        "name": "Wordsmith Base"
+    },
+    {
+        "url": "https://www.buscalibre.cl/age-of-war-base_p_53343822.html",
+        "name": "Age of War Base"
+    },
+    {
+        "url": "https://www.buscalibre.cl/here-to-slay-base_p_53343821.html",
+        "name": "Here to Slay Base"
+    },
+    {
+        "url": "https://www.buscalibre.cl/hanabi-base_p_53343820.html",
+        "name": "Hanabi Base"
+    },
+    {
+        "url": "https://www.buscalibre.cl/crazy-tower-base_p_53343819.html",
+        "name": "Crazy Tower Base"
+    },
+    {
+        "url": "https://www.buscalibre.cl/story-cubes-acciones-blister-eco_p_53343818.html",
+        "name": "Story Cubes Acciones Blister Eco"
+    },
+    {
+        "url": "https://www.buscalibre.cl/el-guantelete-del-infinito-un-juego-love-letter_p_53343817.html",
+        "name": "El Guantelete del Infinito Un Juego Love Letter"
+    },
+    {
+        "url": "https://www.buscalibre.cl/story-cubes-viajes-blister-eco_p_53343816.html",
+        "name": "Story Cubes Viajes Blister Eco"
+    },
+    {
+        "url": "https://www.buscalibre.cl/parade-espanol_p_53343814.html",
+        "name": "Parade Español"
+    },
+    {
+        "url": "https://www.buscalibre.cl/story-cubes-viajes-espanol_p_53343812.html",
+        "name": "Story Cubes Viajes Español"
+    },
+    {
+        "url": "https://www.buscalibre.cl/love-letter-blister_p_53343811.html",
+        "name": "Love Letter Blister"
+    },
+    {
+        "url": "https://www.buscalibre.cl/keyforge-mundos-en-colision-mazo-de-arconte_p_53343810.html",
+        "name": "Keyforge Mundos en Colisión Mazo de Arconte"
+    },
+    {
+        "url": "https://www.buscalibre.cl/keyforge-la-llamada-de-los-arcontes_p_53343809.html",
+        "name": "Keyforge La llamada de los Arcontes"
+    },
+    {
+        "url": "https://www.buscalibre.cl/hombres-lobo-de-castronegro-base_p_53343808.html",
+        "name": "Hombres Lobo De Castronegro Base"
+    },
+    {
+        "url": "https://www.buscalibre.cl/keyforge-mutacion-masiva-mazo_p_53343807.html",
+        "name": "Keyforge Mutación Masiva"
+    },
+    {
+        "url": "https://www.buscalibre.cl/keyforge-la-edad-de-la-ascension_p_53343806.html",
+        "name": "Keyforge La Edad de la Ascensión"
+    },
+    {
+        "url": "https://www.buscalibre.cl/a-empacar-base_p_53343805.html",
+        "name": "¡A Empacar! Base"
+    },
+    {
+        "url": "https://www.buscalibre.cl/cortex-challenge_p_53343803.html",
+        "name": "Cortex Challenge"
+    },
+    {
+        "url": "https://www.buscalibre.cl/dungeons-and-dragons-starter-set-caja-de-inicio_p_53343802.html",
+        "name": "Dungeons and Dragons Starter Set (Caja de Inicio)"
+    },
+    {
+        "url": "https://www.buscalibre.cl/aventureros-al-tren-america_p_53343801.html",
+        "name": "¡Aventureros al Tren! America"
+    },
+    {
+        "url": "https://www.buscalibre.cl/dobble-xxl_p_53343781.html",
+        "name": "Dobble XXL"
+    },
+    {
+        "url": "https://www.buscalibre.cl/time-s-up-family_p_53343797.html",
+        "name": "Time&#039;s Up Family"
+    },
+    {
+        "url": "https://www.buscalibre.cl/dixit-mirrors_p_53343794.html",
+        "name": "Dixit Mirrors"
+    },
+    {
+        "url": "https://www.buscalibre.cl/dixit-memories_p_53343792.html",
+        "name": "Dixit Memories"
+    },
+    {
+        "url": "https://www.buscalibre.cl/dobble-condorito_p_53343791.html",
+        "name": "Dobble Condorito"
+    },
+    {
+        "url": "https://www.buscalibre.cl/dixit-revelations_p_53343789.html",
+        "name": "Dixit Revelations"
+    },
+    {
+        "url": "https://www.buscalibre.cl/aventureros-al-tren-europa_p_53343788.html",
+        "name": "¡Aventureros al Tren! Europa"
+    },
+    {
+        "url": "https://www.buscalibre.cl/dixit-harmonies_p_53343787.html",
+        "name": "Dixit Harmonies"
+    },
+    {
+        "url": "https://www.buscalibre.cl/concept-base_p_53343786.html",
+        "name": "Concept Base"
+    },
+    {
+        "url": "https://www.buscalibre.cl/dixit-daydreams_p_53343785.html",
+        "name": "Dixit Daydreams"
+    },
+    {
+        "url": "https://www.buscalibre.cl/splendor-base_p_53343784.html",
+        "name": "Splendor Base"
+    },
+    {
+        "url": "https://www.buscalibre.cl/dixit-journey_p_53343783.html",
+        "name": "Dixit Journey"
+    },
+    {
+        "url": "https://www.buscalibre.cl/unstable-unicorns-base_p_53343782.html",
+        "name": "Unstable Unicorns Base"
+    },
+    {
+        "url": "https://www.buscalibre.cl/patchwork-base-espanol_p_53343780.html",
+        "name": "Patchwork Base Español"
+    },
+    {
+        "url": "https://www.buscalibre.cl/story-cubes-clasico-blister-eco_p_53343779.html",
+        "name": "Story Cubes Clásico Blister Eco"
+    },
+    {
+        "url": "https://www.buscalibre.cl/cortex-challenge-2-blanco_p_53343778.html",
+        "name": "Cortex Challenge 2 (blanco)"
+    },
+    {
+        "url": "https://www.buscalibre.cl/dixit-origins_p_53343777.html",
+        "name": "Dixit Origins"
+    },
+    {
+        "url": "https://www.buscalibre.cl/dixit-quest_p_53343776.html",
+        "name": "Dixit Quest"
+    },
+    {
+        "url": "https://www.buscalibre.cl/rummikub-base_p_53343775.html",
+        "name": "Rummikub Base"
+    },
+    {
+        "url": "https://www.buscalibre.cl/timeline-chile_p_53343774.html",
+        "name": "Timeline Chile"
+    },
+    {
+        "url": "https://www.buscalibre.cl/dobble-dobble_p_53343773.html",
+        "name": "Dobble Dobble"
+    },
+    {
+        "url": "https://www.buscalibre.cl/exploding-kittens-nsfw_p_53343770.html",
+        "name": "Exploding Kittens NSFW"
+    },
+    {
+        "url": "https://www.buscalibre.cl/timeline-ecopack-clasico_p_53343769.html",
+        "name": "Timeline Ecopack Clásico"
+    },
+    {
+        "url": "https://www.buscalibre.cl/just-one-base_p_53343768.html",
+        "name": "Just One Base"
+    },
+    {
+        "url": "https://www.buscalibre.cl/timeline-ecopack-inventos_p_53343767.html",
+        "name": "Timeline Ecopack Inventos"
+    },
+    {
+        "url": "https://www.buscalibre.cl/timeline-ecopack-eventos_p_53343766.html",
+        "name": "Timeline Ecopack Eventos"
+    },
+    {
+        "url": "https://www.buscalibre.cl/exploding-kittens-base_p_53343765.html",
+        "name": "Exploding Kittens Base"
+    },
+    {
+        "url": "https://www.buscalibre.cl/dixit-odyssey_p_53343742.html",
+        "name": "Dixit Odyssey"
+    },
+    {
+        "url": "https://www.buscalibre.cl/libro-corrales-a-tope-formato-mini/0709081046470/p/53326833",
+        "name": "Corrales a tope (Formato mini)"
+    },
+    {
+        "url": "https://www.buscalibre.cl/libro-knister-formato-mini/0709081046463/p/53326819",
+        "name": "Knister (Formato mini)"
+    },
+    {
+        "url": "https://www.buscalibre.cl/libro-qwinto/0709081046456/p/53326808",
+        "name": "Qwinto"
+    },
+    {
+        "url": "https://www.buscalibre.cl/libro-no-gracias/0709081046449/p/53326794",
+        "name": "¡No Gracias!"
+    },
+    {
+        "url": "https://www.buscalibre.cl/libro-quien-fue/0614143618246/p/53326783",
+        "name": "Quién Fue?"
+    },
+    {
+        "url": "https://www.buscalibre.cl/libro-los-odiosos-7/0781718780544/p/53289714",
+        "name": "Los Odiosos 7"
+    },
+    {
+        "url": "https://www.buscalibre.cl/libro-hula-hula/0781159750335/p/53289712",
+        "name": "¡Hula Hula!"
+    },
+    {
+        "url": "https://www.buscalibre.cl/libro-tough-call-dystopia/781159750298/p/53128023",
+        "name": "Tough Call: Dystopia"
+    },
+    {
+        "url": "https://www.buscalibre.cl/libro-vaca-loca/781159421211/p/53128005",
+        "name": "Vaca Loca"
+    }
+]

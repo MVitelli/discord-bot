@@ -2,6 +2,9 @@ const Discord = require('discord.js');
 const axios = require('axios');
 const client = new Discord.Client();
 require('dotenv').config()
+const friends = require('./examples_data/friends.json');
+const quiz = require('./examples_data/quiz.json');
+const { BetRepository } = require('./src/modules/bets');
 
 const prefix = "!";
 
@@ -18,6 +21,31 @@ const findPokemon = (name, evolutionInfo) => {
         }
     }
     else return findPokemon(name, evolutionInfo)
+}
+
+const findFriend = (name) => {
+    return friends.find(friend => friend.user === name)?.id;
+}
+
+const buildHistory = (data) => {
+    let history = data.filter(match => match.lobby_type === 6 || match.lobby_type === 7)
+        .map((match, index) => {
+            let { player_slot, radiant_win } = match;
+            if (radiant_win && player_slot < 128 || !radiant_win && player_slot > 127) return `${index}: ✅`;
+            return `${index}: ❌`;
+        })
+    return history;
+}
+
+const item = quiz[Math.floor(Math.random() * quiz.length)];
+const filter = response => {
+    return item.answers.some(answer => answer.toLowerCase() === response.content.toLowerCase());
+};
+
+const betFilter = response => {
+    let betCommand = response.content.split(' ');
+    let betPrefix = betCommand.shift().toLowerCase();
+    return betPrefix === "bet";
 }
 
 client.on("message", (message) => {
@@ -62,8 +90,9 @@ client.on("message", (message) => {
     }
 
     if (command === "clean") {
+        const limit = parseInt(args.shift().toLowerCase());
         async function clear() {
-            await message.channel.messages.fetch({ limit: 10 })
+            await message.channel.messages.fetch({ limit: limit })
                 .then(messages => {
                     console.log(`messages`, messages)
                     message.channel.bulkDelete(messages);
@@ -71,6 +100,76 @@ client.on("message", (message) => {
         }
         clear();
     }
+
+    if (command === "dota") {
+        const name = args.shift().toLowerCase();
+        const friendId = findFriend(name);
+        if (!friendId) {
+            message.reply("Not in the users list");
+            return;
+        }
+        axios(`https://api.opendota.com/api/players/${friendId}/recentMatches`)
+            .then(res => {
+                const { data } = res;
+                let history = `${name}: \n` + buildHistory(data)
+                message.reply(history)
+            })
+            .catch(err => message.reply("Working on this."))
+    }
+
+    if (command === "question") {
+        message.channel.send(item.question).then(() => {
+            message.channel.awaitMessages(filter, { max: 1, time: 30000, errors: ['time'] })
+                .then(collected => {
+                    message.channel.send(`${collected.first().author} got the correct answer!`);
+                })
+                .catch(collected => {
+                    message.channel.send('Looks like nobody got the answer this time.');
+                });
+        });
+    }
+
+    if (command === "startbet") {
+        const betContent = args.join(' ');
+        message.channel.send(`Bet started: ${betContent}`).then(() => {
+            message.channel.awaitMessages(betFilter, { max: 2, time: 20000, errors: ['time'] })
+                .then(async (collected) => {
+                    for (let collectedMsg of collected) {
+                        let message = collectedMsg[1];
+                        let { author, content } = message;
+                        let info = content.split(' ');
+                        info.shift();
+                        let newBet = {
+                            "user": author.username,
+                            "amount": info.shift().toLowerCase(),
+                            "choice": info.shift().toLowerCase(),
+                        }
+                        const res = await BetRepository.add(newBet)
+                        message.channel.send(`${collected.size} bets received.`);
+                    }
+                })
+                .catch(collected => {
+                    message.channel.send('Bet finished');
+                })
+        });
+    }
+
+    if (command === "betos") {
+        BetRepository.findAll().then(bets => {
+            console.log(`bets`, bets)
+            bets.forEach(bet => message.channel.send(`${bet.user} bet ${bet.amount} ${bet.choice}.\n`))
+        });
+    }
+
+    if (command === "sth") {
+        // Await !vote messages
+        const filter = m => m.content.startsWith('!vote');
+        // Errors: ['time'] treats ending because of the time limit as an error
+        message.channel.awaitMessages(filter, { max: 4, time: 60000, errors: ['time'] })
+            .then(collected => console.log(collected.size))
+            .catch(collected => console.log(`After a minute, only ${collected.size} out of 4 voted.`));
+    }
+
 })
 
 client.login(process.env.BOT_TOKEN)

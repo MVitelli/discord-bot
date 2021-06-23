@@ -1,0 +1,16 @@
+{
+  "bets": [
+    {
+      "id": "16ac697f-a2e5-4b75-b880-9453841a07aa",
+      "user": "Maxo",
+      "amount": "100",
+      "choice": "gana"
+    },
+    {
+      "id": "bf3407f8-1c4f-4fe4-8fbb-de7ee65dde30",
+      "user": "Maxo",
+      "amount": "200",
+      "choice": "pierde"
+    }
+  ]
+}
