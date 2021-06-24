@@ -43,9 +43,26 @@ const filter = response => {
 };
 
 const betFilter = response => {
+    // let authorCode = response.author.discriminator;
+    // if (authorCode != '1532' && authorCode != '1411') return false;
     let betCommand = response.content.split(' ');
     let betPrefix = betCommand.shift().toLowerCase();
     return betPrefix === "bet";
+}
+
+const betCount = async (collected) => {
+    for (let collectedMsg of collected) {
+        let msg = collectedMsg[1];
+        let { author, content } = msg;
+        let info = content.split(' ');
+        info.shift();
+        let newBet = {
+            "user": author.username,
+            "amount": info.shift().toLowerCase(),
+            "choice": info.shift().toLowerCase(),
+        }
+        const res = await BetRepository.add(newBet)
+    }
 }
 
 client.on("message", (message) => {
@@ -132,26 +149,16 @@ client.on("message", (message) => {
     if (command === "startbet") {
         const betContent = args.join(' ');
         message.channel.send(`Bet started: ${betContent}`).then(() => {
-            message.channel.awaitMessages(betFilter, { max: 2, time: 20000, errors: ['time'] })
+            message.channel.awaitMessages(betFilter, { max: 5, time: 20000, errors: ['time'] })
                 .then(async (collected) => {
-                    for (let collectedMsg of collected) {
-                        let message = collectedMsg[1];
-                        let { author, content } = message;
-                        let info = content.split(' ');
-                        info.shift();
-                        let newBet = {
-                            "user": author.username,
-                            "amount": info.shift().toLowerCase(),
-                            "choice": info.shift().toLowerCase(),
-                        }
-                        const res = await BetRepository.add(newBet)
-                        message.channel.send(`${collected.size} bets received.`);
-                    }
+                    await betCount(collected);
+                    message.channel.send(`${collected.size} bets received.`);
                 })
-                .catch(collected => {
-                    message.channel.send('Bet finished');
+                .catch(async (collected) => {
+                    await betCount(collected);
+                    message.channel.send(`${collected.size} bets received.`);
                 })
-        });
+        })
     }
 
     if (command === "betos") {
